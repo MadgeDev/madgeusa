@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Madge USA</title>
-	<atom:link href="https://madgeusa.netlify.app/feed/" rel="self" type="application/rss+xml" />
-	<link>https://madgeusa.netlify.app/</link>
+	<atom:link href="http://madgeusa.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://madgeusa.com/</link>
 	<description>Mill Alignment &#38; Mechanical Service</description>
 	<lastBuildDate>Thu, 29 Apr 2021 09:53:40 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,36 +21,36 @@
 	<generator>https://wordpress.org/?v=5.7.1</generator>
 
 <image>
-	<url>https://madgeusa.netlify.app/wp-content/uploads/2021/04/MadgePH_favicon.png</url>
+	<url>http://madgeusa.com/wp-content/uploads/2021/04/MadgePH_favicon.png</url>
 	<title>Madge USA</title>
-	<link>https://madgeusa.netlify.app/</link>
+	<link>http://madgeusa.com/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>Hello world!</title>
-		<link>https://madgeusa.netlify.app/2021/04/29/hello-world/</link>
-					<comments>https://madgeusa.netlify.app/2021/04/29/hello-world/#comments</comments>
+		<link>http://madgeusa.com/2021/04/29/hello-world/</link>
+					<comments>http://madgeusa.com/2021/04/29/hello-world/#comments</comments>
 		
 		<dc:creator><![CDATA[madgeusa]]></dc:creator>
 		<pubDate>Thu, 29 Apr 2021 09:53:40 +0000</pubDate>
 				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">https://madgeusa.netlify.app/?p=1</guid>
+		<guid isPermaLink="false">http://madgeusa.com/?p=1</guid>
 
 					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
 										<content:encoded><![CDATA[
 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://madgeusa.netlify.app/2021/04/29/hello-world/feed/</wfw:commentRss>
+					<wfw:commentRss>http://madgeusa.com/2021/04/29/hello-world/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Nulla nibh neque, suscipit sit amet dictum nec</title>
-		<link>https://madgeusa.netlify.app/2018/06/29/nulla-nibh-neque-suscipit-sit-amet-dictum-nec/</link>
-					<comments>https://madgeusa.netlify.app/2018/06/29/nulla-nibh-neque-suscipit-sit-amet-dictum-nec/#respond</comments>
+		<link>http://madgeusa.com/2018/06/29/nulla-nibh-neque-suscipit-sit-amet-dictum-nec/</link>
+					<comments>http://madgeusa.com/2018/06/29/nulla-nibh-neque-suscipit-sit-amet-dictum-nec/#respond</comments>
 		
 		<dc:creator><![CDATA[madgeusa]]></dc:creator>
 		<pubDate>Fri, 29 Jun 2018 14:06:52 +0000</pubDate>
@@ -63,15 +63,15 @@
 <p>Donec pellentesque lorem semper libero auctor pretium. Phasellus non lectus fringilla, ultrices lectus ac, volutpat nulla. In finibus suscipit risus, hendrerit posuere orci suscipit quis. Proin dictum lacus hendrerit erat vulputate, vitae fermentum quam rhoncus. Curabitur vel egestas erat, in volutpat nibh. Sed non mi quis odio congue iaculis. Mauris dictum tincidunt metus, quis pretium ipsum ultrices sed. Vivamus interdum a diam ac egestas. Aenean sapien felis, posuere at aliquet sed, tempor non nunc. Phasellus varius bibendum magna eget laoreet. Morbi ac ultricies nisi.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://madgeusa.netlify.app/2018/06/29/nulla-nibh-neque-suscipit-sit-amet-dictum-nec/feed/</wfw:commentRss>
+					<wfw:commentRss>http://madgeusa.com/2018/06/29/nulla-nibh-neque-suscipit-sit-amet-dictum-nec/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Morbi tincidunt urna sed tellus venenatis sollicitudin</title>
-		<link>https://madgeusa.netlify.app/2018/06/29/morbi-tincidunt-urna-sed-tellus-venenatis-sollicitudin/</link>
-					<comments>https://madgeusa.netlify.app/2018/06/29/morbi-tincidunt-urna-sed-tellus-venenatis-sollicitudin/#respond</comments>
+		<link>http://madgeusa.com/2018/06/29/morbi-tincidunt-urna-sed-tellus-venenatis-sollicitudin/</link>
+					<comments>http://madgeusa.com/2018/06/29/morbi-tincidunt-urna-sed-tellus-venenatis-sollicitudin/#respond</comments>
 		
 		<dc:creator><![CDATA[madgeusa]]></dc:creator>
 		<pubDate>Fri, 29 Jun 2018 14:06:51 +0000</pubDate>
@@ -84,15 +84,15 @@
 <p>Donec pellentesque lorem semper libero auctor pretium. Phasellus non lectus fringilla, ultrices lectus ac, volutpat nulla. In finibus suscipit risus, hendrerit posuere orci suscipit quis. Proin dictum lacus hendrerit erat vulputate, vitae fermentum quam rhoncus. Curabitur vel egestas erat, in volutpat nibh. Sed non mi quis odio congue iaculis. Mauris dictum tincidunt metus, quis pretium ipsum ultrices sed. Vivamus interdum a diam ac egestas. Aenean sapien felis, posuere at aliquet sed, tempor non nunc. Phasellus varius bibendum magna eget laoreet. Morbi ac ultricies nisi.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://madgeusa.netlify.app/2018/06/29/morbi-tincidunt-urna-sed-tellus-venenatis-sollicitudin/feed/</wfw:commentRss>
+					<wfw:commentRss>http://madgeusa.com/2018/06/29/morbi-tincidunt-urna-sed-tellus-venenatis-sollicitudin/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Quisque at nisl maximus, fringilla magna sed</title>
-		<link>https://madgeusa.netlify.app/2018/06/29/quisque-at-nisl-maximus-fringilla-magna-sed/</link>
-					<comments>https://madgeusa.netlify.app/2018/06/29/quisque-at-nisl-maximus-fringilla-magna-sed/#respond</comments>
+		<link>http://madgeusa.com/2018/06/29/quisque-at-nisl-maximus-fringilla-magna-sed/</link>
+					<comments>http://madgeusa.com/2018/06/29/quisque-at-nisl-maximus-fringilla-magna-sed/#respond</comments>
 		
 		<dc:creator><![CDATA[madgeusa]]></dc:creator>
 		<pubDate>Fri, 29 Jun 2018 14:06:28 +0000</pubDate>
@@ -105,7 +105,7 @@
 <p>Donec pellentesque lorem semper libero auctor pretium. Phasellus non lectus fringilla, ultrices lectus ac, volutpat nulla. In finibus suscipit risus, hendrerit posuere orci suscipit quis. Proin dictum lacus hendrerit erat vulputate, vitae fermentum quam rhoncus. Curabitur vel egestas erat, in volutpat nibh. Sed non mi quis odio congue iaculis. Mauris dictum tincidunt metus, quis pretium ipsum ultrices sed. Vivamus interdum a diam ac egestas. Aenean sapien felis, posuere at aliquet sed, tempor non nunc. Phasellus varius bibendum magna eget laoreet. Morbi ac ultricies nisi.</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://madgeusa.netlify.app/2018/06/29/quisque-at-nisl-maximus-fringilla-magna-sed/feed/</wfw:commentRss>
+					<wfw:commentRss>http://madgeusa.com/2018/06/29/quisque-at-nisl-maximus-fringilla-magna-sed/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
