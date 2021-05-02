@@ -29,6 +29,7 @@ img.emoji {
 }</style>
 	<link rel="stylesheet" id="airi-bootstrap-css" href="//madgeusa.netlify.app/wp-content/themes/airi/css/bootstrap/bootstrap.min.css?ver=1" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-library-css" href="//madgeusa.netlify.app/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="//madgeusa.netlify.app/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.1" type="text/css" media="all">
 <link rel="stylesheet" id="airi-style-css" href="//madgeusa.netlify.app/wp-content/themes/airi/style.css?ver=5.7.1" type="text/css" media="all">
 <link rel="stylesheet" id="airi-font-awesome-css" href="//madgeusa.netlify.app/wp-content/themes/airi/css/font-awesome/css/font-awesome.min.css?ver=5.7.1" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="//madgeusa.netlify.app/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.11.0" type="text/css" media="all">
@@ -136,6 +137,11 @@ img.emoji {
 /*stop the map float under navbar*/
 #leafletjs-map {
 	transform: translate(0px);
+}
+
+/* Form bottom spacing */
+textarea {
+	height: fit-content;
 }</style>
 		<style id="kirki-inline-styles">h1,h2,h3,h4,h5,h6,.site-title{font-family:Work Sans;font-weight:500;}body{font-family:Work Sans;font-weight:400;font-size:16px;}.site-title{font-size:36px;}.site-description{font-size:16px;}.main-navigation ul ul li{font-size:13px;}.single-post .entry-title{font-size:36px;color:#191919;}.widget-area .widget-title{font-size:24px;}.widget-area .widget{font-size:16px;}.sidebar-column .widget-title{font-size:20px;}.sidebar-column .widget{font-size:16px;}.site-info{font-size:13px;}.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,.product div.entry-summary p.price, .product div.entry-summary span.price,.athemes-blog:not(.airi_athemes_blog_skin) .posted-on a,.athemes-blog:not(.airi_athemes_blog_skin) .byline a:hover,.testimonials-section.style1:before,.single-post .read-more-link .gt,.blog-loop .read-more-link .gt,.single-post .posted-on a,.blog-loop .posted-on a,.entry-title a:hover,.airi_recent_entries .post-date,.menuStyle3 .top-bar .contact-item .fa,.menuStyle4 .contact-area .contact-block .contact-icon,.widget_categories li:hover::before,.widget_categories li:hover a{color:#f92823;}.product .single_add_to_cart_button.button.alt,.menuStyle4 .contact-area .contact-block .contact-icon,button,.button,input[type="button"],input[type="reset"],input[type="submit"]{border-color:#f92823;}.woocommerce-checkout button.button.alt,.woocommerce-checkout button.button.alt:hover,.woocommerce-cart .cart-collaterals .cart_totals .button:hover,.woocommerce-cart .cart-collaterals .cart_totals .button,.product .single_add_to_cart_button.button.alt:hover,.product .single_add_to_cart_button.button.alt,.woocommerce ul.products li.product .button,.menuStyle2 .main-navigation a:hover:after, .menuStyle2 .main-navigation .current-menu-item:after,.comments-area .comment-reply-link:hover,.menuStyle4 .main-navigation .header-cta:before,.menuStyle4 .main-navigation .header-cta,button,.button,input[type="button"],input[type="reset"],input[type="submit"],.menuStyle3 .main-navigation a:hover:after,.menuStyle3 .main-navigation .current-menu-item:after{background-color:#f92823;}.menuStyle2 .site-title a{color:#191919;}.menuStyle2 .sticky-wrapper.is-sticky .site-title a{color:#191919;}.menuStyle2 .site-description{color:#707070;}.menuStyle2 .sticky-wrapper.is-sticky .site-description{color:#707070;}.menuStyle2 .main-navigation a{color:#191919;}.menuStyle2 .sticky-wrapper.is-sticky .main-navigation a{color:#191919;}.menuStyle2 .site-header{background-color:#fff;}.menuStyle2 .is-sticky .site-header{background-color:#ffffff;}#site-navigation ul ul li a{color:#1c1c1c;}#site-navigation ul ul li{background-color:#f7f7f7;}.entry-title a{color:#191919;}.single-post .post-cat, .blog-loop .post-cat{background-color:#eff1f4;}.single-post .entry-meta, .blog-loop .entry-meta{color:#bfbfbf;}.single-post .entry-meta .byline a, .blog-loop .entry-meta .byline a{color:#595959;}.single-post .entry-content, .blog-loop .entry-content{color:#595959;}.widget .widget-title{color:#191919;}.widget{color:#707070;}.widget a{color:#595959;}/* vietnamese */
 @font-face {
@@ -446,6 +452,16 @@ Balayan, Batangas 4213 Philippines</p>
 <script type="text/javascript" src="//madgeusa.netlify.app/wp-content/plugins/elementor/assets/lib/slick/slick.min.js?ver=1.8.1" id="jquery-slick-js"></script>
 <script type="text/javascript" src="//madgeusa.netlify.app/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
 <script type="text/javascript" src="//madgeusa.netlify.app/wp-content/themes/airi/js/vendor/navigation.js?ver=20180717" id="airi-navigation-js"></script>
+<script type="text/javascript" src="//madgeusa.netlify.app/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=7.4.4" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wp-polyfill-js-after">
+( 'fetch' in window ) || document.write( '<script src="//madgeusa.netlify.app/wp-includes/js/dist/vendor/wp-polyfill-fetch.min.js?ver=3.0.0"><\/scr' + 'ipt>' );( document.contains ) || document.write( '<script src="//madgeusa.netlify.app/wp-includes/js/dist/vendor/wp-polyfill-node-contains.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.DOMRect ) || document.write( '<script src="//madgeusa.netlify.app/wp-includes/js/dist/vendor/wp-polyfill-dom-rect.min.js?ver=3.42.0"><\/scr' + 'ipt>' );( window.URL && window.URL.prototype && window.URLSearchParams ) || document.write( '<script src="//madgeusa.netlify.app/wp-includes/js/dist/vendor/wp-polyfill-url.min.js?ver=3.6.4"><\/scr' + 'ipt>' );( window.FormData && window.FormData.prototype.keys ) || document.write( '<script src="//madgeusa.netlify.app/wp-includes/js/dist/vendor/wp-polyfill-formdata.min.js?ver=3.0.12"><\/scr' + 'ipt>' );( Element.prototype.matches && Element.prototype.closest ) || document.write( '<script src="//madgeusa.netlify.app/wp-includes/js/dist/vendor/wp-polyfill-element-closest.min.js?ver=2.0.2"><\/scr' + 'ipt>' );( 'objectFit' in document.documentElement.style ) || document.write( '<script src="//madgeusa.netlify.app/wp-includes/js/dist/vendor/wp-polyfill-object-fit.min.js?ver=2.3.4"><\/scr' + 'ipt>' );
+</script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"\/\/madgeusa.netlify.app\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="//madgeusa.netlify.app/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.1" id="contact-form-7-js"></script>
 <script type="text/javascript" src="//madgeusa.netlify.app/wp-content/themes/airi/js/vendor/skip-link-focus-fix.js?ver=20151215" id="airi-skip-link-focus-fix-js"></script>
 <script type="text/javascript" src="//madgeusa.netlify.app/wp-content/themes/airi/js/vendor/scripts.js?ver=20180223" id="airi-scripts-js"></script>
 <script type="text/javascript" src="//madgeusa.netlify.app/wp-content/themes/airi/js/custom/custom.min.js?ver=20181017" id="airi-main-js"></script>
